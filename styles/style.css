@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #201B2D;
+    color: #FFB91D;
+}
+
+:root {
+    font-size: 62.5%
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pages {
+    color: #FFB91D;
+}
+
+#logo{
+    font-size: 4.3rem;
+}
+
+#credits {
+    text-align: center;
+    padding: 2rem;
+    border-top: 0.1rem solid #FFB91D;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+nav a{
+    margin-left: 2rem;
+    font-size: 2.5rem;
+}
+
+nav ul li {
+    margin-right: 2rem;
+    list-style: none;
+    color: white;
+    margin-top: 1rem;
+}
+
+nav ul li a{
+    font-size: 2rem;
+}
+
+section{
+    text-align: center;
+}
+
+section button {
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: yellowgreen;
+    margin-bottom: 3rem;
+}
+
+section button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+#translation {
+    height: 2rem;
+    width: 10rem;
+    margin-left: 124rem;
+    margin-top: 1.2rem;
+    background-color: #302942;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: #FFB91D;
+}
+
+.about #atencao{
+    text-align: center;
+    font-size: 6rem;
+    color: red;
+}
+
+.about #attention{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 6rem;
+    color: red;
+}
+
+.about {
+    text-align: center;
+    margin-top: 30rem;
+}
+
+#creditsAbout {
+    text-align: center;
+    padding: 2rem;
+    border-top: 0.1rem solid #FFB91D;
+    font-size: 1.5rem;
+    margin-top: 45rem;
+}
+
+.inputs{   
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input {
+    margin-bottom: 1rem;
+    width: 80rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+#resposta{
+    text-align: justify;
+    margin-left: 2rem;
+    margin-bottom: 6rem;
+}
+
+#resposta h2{
+    margin-bottom: 2rem;
+}

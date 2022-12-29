@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>NMScriptGenerator</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="logo" href="index.html">NMScriptPRO</a>
+            <!-- <button id="translation" onclick="translation()">Traduzir</button> -->
+            <ul>
+                <li>
+                    <a id="home" class="pages" href="index.html">Inicio</a>
+                    <a id="about" class="pages" href="about.html">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="titulo">
+            <h2>Escreva seu Roteiro aqui !!!</h2>
+        </div>
+        <div class="inputs">
+            <input type="text" id="typequest" placeholder="Tipo da Missão Designada"></input>
+            <input type="text" id="typereward" placeholder="Tipo da Recompensa"></input>
+            <input type="text" id="caracdialogue" placeholder="Personagens presentes na historia"></input>
+            <input type="text" id="location" placeholder="Local da Missão"></input>
+        </div>
+            <button class="servidores" onclick="generateTextNanatsu()" id="nanatsu" type="submit">Nanatsu</button>
+            <button class="servidores" onclick="generateTextSoloLeveling()" id="solo" type="submit">Solo Leveling</button>
+            <button class="servidores" onclick="generateTextJujutsu()" id="jujutsu" type="submit">Jujustu Kaisen</button>
+            <button class="servidores" onclick="generateTextNaruto()" id="naruto" type="submit">Naruto</button>
+        <div id="resposta">
+            <h2 id="dialogue2">Dialogo: <p></p></h2>
+            <h2 id="questype">Tipo da missão: <p></p></h2>
+            <h2 id="rewardquantity">Recompensa/Quantidade: <p></p></h2>
+            <h2 id="missionlocation">Localização da Missão: <p></p></h2>
+            <h2 id="whatodo">O que fazer: <p></p></h2>
+        </div>
+    </section>
+    <footer>
+        <p id="credits">Created by <a href="https://github.com/GabrielLicar" target="_blank">Gabriel Licar</a> and <a href="https://github.com/joaoalberis" target="_blank">João Alberis</a></p>
+    </footer>
+</body>
+<script src="scripts/index.js"></script>
+</html>
