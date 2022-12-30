@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <title>NMScriptGenerator</title>
+    <script src="scripts/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -34,17 +35,14 @@
             <button class="servidores" onclick="generateTextSoloLeveling()" id="solo" type="submit">Solo Leveling</button>
             <button class="servidores" onclick="generateTextJujutsu()" id="jujutsu" type="submit">Jujustu Kaisen</button>
             <button class="servidores" onclick="generateTextNaruto()" id="naruto" type="submit">Naruto</button>
-        <div id="resposta">
-            <h2 id="dialogue2">Dialogo: <p></p></h2>
-            <h2 id="questype">Tipo da missão: <p></p></h2>
-            <h2 id="rewardquantity">Recompensa/Quantidade: <p></p></h2>
-            <h2 id="missionlocation">Localização da Missão: <p></p></h2>
-            <h2 id="whatodo">O que fazer: <p></p></h2>
+        <div>
+            <h2 id="resultado">Esperando...</h2>
+            <p id="resposta"></p>
         </div>
     </section>
     <footer>
         <p id="credits">Created by <a href="https://github.com/GabrielLicar" target="_blank">Gabriel Licar</a> and <a href="https://github.com/joaoalberis" target="_blank">João Alberis</a></p>
     </footer>
 </body>
-<script src="scripts/index.js"></script>
+
 </html>

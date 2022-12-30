@@ -25,6 +25,8 @@ a{
 
 #logo{
     font-size: 4.3rem;
+    color: rgb(241, 241, 241);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #credits {
@@ -61,14 +63,15 @@ section{
 }
 
 section button {
+    height: 3.5rem;
     border-radius: .5rem;
     padding: .5rem;
-    background-color: yellowgreen;
+    background-color: #FFB91D;
     margin-bottom: 3rem;
 }
 
 section button:hover{
-    background-color: green;
+    background-color: #ad7e16;
     cursor: pointer;
 }
 
@@ -107,7 +110,7 @@ section button:hover{
     padding: 2rem;
     border-top: 0.1rem solid #FFB91D;
     font-size: 1.5rem;
-    margin-top: 45rem;
+    margin-top: 31.5rem;
 }
 
 .inputs{   
@@ -121,6 +124,7 @@ section button:hover{
 .inputs input {
     margin-bottom: 1rem;
     width: 80rem;
+    height: 3.5rem;
     border-radius: .5rem;
     text-align: center;
 }
@@ -129,6 +133,7 @@ section button:hover{
     text-align: justify;
     margin-left: 2rem;
     margin-bottom: 6rem;
+    font-size: 1.5rem;
 }
 
 #resposta h2{
